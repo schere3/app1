@@ -1,2 +1,2 @@
-# informes_economicos_gsc
+# primerapp
 Realizaremos una aplicaciónen la que exista un chatbot.
