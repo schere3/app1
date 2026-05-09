@@ -46,7 +46,7 @@ st.markdown("""
 st.header("2. Desarrollo y resultados")
 
 st.subheader("2.1. Tareas y actividades realizadas.")
-st.info("En esta sección se dividen las tareas realizadas por bloques.")
+st.write("En esta sección se dividen las tareas realizadas por bloques.")
 # --- BLOQUE 1 ---
 with st.expander("🤖  Bloque I: IA y Gestión de la Información.", expanded=True):
     st.markdown("""
