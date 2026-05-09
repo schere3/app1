@@ -16,6 +16,7 @@ En esta sección se cargan las herramientas necesarias para el procesamiento num
 """
 
 # librerías para manipulación de datos
+import streamlit as st
 import pandas as pd
 import numpy as np
 

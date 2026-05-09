@@ -19,6 +19,7 @@ Original file is located at
 """
 
 # Importar las librerías necesarias
+import steamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
