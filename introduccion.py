@@ -70,6 +70,7 @@ with st.expander("🤖 Bloque III: Business Intelligence, Modelización Predicti
     8. **Diseño de un cuadro de mando (Dashboard) en Power BI:** Esta herramienta permite monitorizar de forma dinámica el gasto energético y las previsiones calculadas en la Actividad 7, facilitando una lectura ejecutiva de los datos. El proyecto finalizó con una presentación ante el tutor externo.
     9. **Desarrollo y despliegue web de resultados técnicos:** Se llevó a cabo una labor de autoformación en tecnologías de despliegue web y control de versiones. Mediante el uso del framework Streamlit, se desarrolló una interfaz interactiva alojada en GitHub, que consolida y expone de forma dinámica los resultados de las actividades 7 y 8.
     """)
+st.write("Puedes acceder a las actividades de cada bloque en el índice de la izquierda")
 
 # Nota visual para cerrar la sección
 st.divider()
