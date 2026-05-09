@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 
 # Asignación de páginas
 pg_intro = st.Page("introduccion.py", title="Introducción")
