@@ -45,17 +45,17 @@ st.markdown("""
 # --- SECCIÓN 2: DESARROLLO ---
 st.header("2. Desarrollo y resultados")
 
-st.subheader("2.1. Tareas y actividades realizadas")
+st.subheader("2.1. Tareas y actividades realizadas.")
 st.info("En esta sección se dividen las tareas realizadas por bloques.")
 # --- BLOQUE 1 ---
-with st.expander("📦 Bloque 1: Ingesta y Preprocesamiento de Datos", expanded=True):
+with st.expander("🤖  Bloque I: IA y Gestión de la Información.", expanded=True):
     st.markdown("""
     1. **Extracción y Limpieza:** Consolidación de fuentes de datos provenientes de los servicios operativos de GSC.
     2. **Tratamiento de Nulos:** Aplicación de técnicas estadísticas para la imputación de valores faltantes en las bases de datos.
     """)
 
 # --- BLOQUE 2 ---
-with st.expander("📊 Bloque 2: Análisis Exploratorio (EDA)"):
+with st.expander("📊 Bloque II: Ciencia de Datos."):
     st.markdown("""
     1. **Análisis Descriptivo:** Cálculo de métricas de tendencia central y dispersión de los tiempos de respuesta.
     2. **Visualización de Datos:** Creación de gráficos interactivos con *Matplotlib* y *Seaborn* para identificar patrones.
@@ -63,7 +63,7 @@ with st.expander("📊 Bloque 2: Análisis Exploratorio (EDA)"):
     """)
 
 # --- BLOQUE 3 ---
-with st.expander("🤖 Bloque 3: Modelado y Reporte Final"):
+with st.expander("🤖 Bloque III: Business Intelligence, Modelización Predictiva y Despliegue de Soluciones."):
     st.markdown("""
     1. **Selección de Características:** Uso de *scikit-learn* para identificar las variables más influyentes en el flujo de datos.
     2. **Entrenamiento de Modelos:** Implementación de algoritmos de regresión/clasificación para predecir demanda de servicios.
