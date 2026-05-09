@@ -10,4 +10,4 @@ with open("index2.html", "r", encoding="utf-8") as f:
     
 # El height aquí debe ser alto para que no aparezca una doble barra de scroll
 # 700 es un buen número para presentaciones estándar
-components.html(html_presentacion, height=700)
+components.html(html_presentacion, height=500)
