@@ -50,9 +50,8 @@ st.info("En esta sección se dividen las tareas realizadas por bloques.")
 # --- BLOQUE 1 ---
 with st.expander("🤖  Bloque I: IA y Gestión de la Información.", expanded=True):
     st.markdown("""
-    1. **Optimización de gestión documental mediante NotebookLM:** Con el objetivo de optimizar el análisis de gran cantidad de información, se llevó a cabo una investigación técnica sobre la herramienta NotebookLM. El proceso incluyó una fase de curación de datos y pruebas de rendimiento en la organización de fuentes de información. La
-actividad concluyó con una sesión de transferencia de conocimiento ante el tutor externo y la compañera de prácticas del momento.
-    2. ** Análisis Análisis comparativo de modelos de Inteligencia Artificial. Con el fin de analizar el ecosistema tecnológico actual y determinar las capacidades diferenciales de cada inteligencia artificial, se procede a categorizarlas. La actividad concluyó con la presentación de un informe técnico donde se detallaron las ventajas competitivas de cada herramienta.
+    1. **Optimización de gestión documental mediante NotebookLM:** Con el objetivo de optimizar el análisis de gran cantidad de información, se llevó a cabo una investigación técnica sobre la herramienta NotebookLM. El proceso incluyó una fase de curación de datos y pruebas de rendimiento en la organización de fuentes de información. La actividad concluyó con una sesión de transferencia de conocimiento ante el tutor externo y la compañera de prácticas del momento.
+    2. ** Análisis Análisis comparativo de modelos de Inteligencia Artificial:** Con el fin de analizar el ecosistema tecnológico actual y determinar las capacidades diferenciales de cada inteligencia artificial, se procede a categorizarlas. La actividad concluyó con la presentación de un informe técnico donde se detallaron las ventajas competitivas de cada herramienta.
     """)
 
 # --- BLOQUE 2 ---
@@ -60,7 +59,7 @@ with st.expander("📊 Bloque II: Ciencia de Datos."):
     st.markdown("""
     3. **Microcredencial certificada:** Se completó con éxito la Microcredencial universitaria en Introducción al Machine Learning por la Universidad de La Laguna (ULL). Esta formación proporcionó las bases matemáticas y algorítmicas necesarias para el desarrollo de soluciones basadas en aprendizaje supervisado y no supervisado.
     4. **Proyecto 1:** Creación de gráficos interactivos con *Matplotlib* y *Seaborn* para identificar patrones.
-    5. **Proyecto final:** Identificación de casos atípicos en los servicios de urgencias para mejorar la precisión del modelo.
+    5. **Proyecto Final:** Identificación de casos atípicos en los servicios de urgencias para mejorar la precisión del modelo.
     """)
 
 # --- BLOQUE 3 ---
