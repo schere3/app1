@@ -1,33 +1,24 @@
 import streamlit as st
-from openai import OpenAI
+import pandas as pd
+import plotly.express as px
 
-st.set_page_config(page_title="Mi IA Personal", page_icon="🤖")
+# Asignación de páginas
+pg_intro = st.Page("introduccion.py", title="Introducción")
+pg1 = st.Page("actividad1.py", title="Actividad 1")
+pg2 = st.Page("actividad2.py", title="Actividad 2")
+pg3 = st.Page("actividad3.py", title="Actividad 3")      
+pg4 = st.Page("actividad4.py", title="Actividad 4")                     
+pg5 = st.Page("actividad5.py", title="Actividad 5")        
+pg6 = st.Page("actividad5.py", title="Actividad 6")        
+pg7 = st.Page("actividad7.py", title="Actividad 7")        
+pg8 = st.Page("actividad8.py", title="Actividad 8")        
 
-st.title("🤖 Asistente LLM")
-st.caption("Una app creada desde la nube con Streamlit")
-
-# Sidebar para la configuración
-with st.sidebar:
-    st.header("Configuración")
-    api_key = st.text_input("Introduce tu OpenAI API Key", type="password")
-
-# Chat
-if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "assistant", "content": "¿En qué puedo ayudarte hoy?"}]
-
-for msg in st.session_state.messages:
-    st.chat_message(msg["role"]).write(msg["content"])
-
-if prompt := st.chat_input():
-    if not api_key:
-        st.info("Por favor, añade tu API Key de OpenAI para continuar.")
-        st.stop()
-
-    client = OpenAI(api_key=api_key)
-    st.session_state.messages.append({"role": "user", "content": prompt})
-    st.chat_message("user").write(prompt)
-    
-    response = client.chat.completions.create(model="gpt-3.5-turbo", messages=st.session_state.messages)
-    msg = response.choices[0].message.content
-    st.session_state.messages.append({"role": "assistant", "content": msg})
-    st.chat_message("assistant").write(msg)
+navigation_env = st.navigation(
+    {
+        "": [pg_intro],
+        "Bloque I: IA y Gestión de la Información" : [pg1, pg2],
+        "Bloque I: IA y Gestión de la Información": [pg3,pg4,pg5],
+        "Bloque I: IA y Gestión de la Información": [pg6,pg7,pg8]
+    }
+)
+navigation_env.run()
