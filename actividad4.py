@@ -18,8 +18,9 @@ import seaborn as sns
 
 # Configuración visual opcional
 sns.set_style("whitegrid")
-# Tarea 1: Análisis Exploratorio de Datos (EDA)
 """
+# Tarea 1: Análisis Exploratorio de Datos (EDA)
+
 **Objetivo:** Aplicar técnicas de exploración, limpieza y descripción estadística sobre un nuevo conjunto de datos.
 
 **Instrucciones:**
