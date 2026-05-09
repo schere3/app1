@@ -18,8 +18,8 @@ navigation_env = st.navigation(
     {
         "": [pg_intro],
         "Bloque I: IA y Gestión de la Información" : [pg1,pg2],
-        "Bloque I: IA y Gestión de la Información": [pg3,pg4,pg5],
-        "Bloque I: IA y Gestión de la Información": [pg6,pg7,pg8,pg9]
+        "Bloque II: Ciencia de Datos": [pg3,pg4,pg5],
+        "Bloque III: Business Intelligence, Modelización Predictiva y Despliegue de Soluciones.": [pg6,pg7,pg8,pg9]
     }
 )
 navigation_env.run()
