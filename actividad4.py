@@ -37,7 +37,9 @@ Muestra las primeras 5 filas y 5 filas aleatorias para verificar que se cargó c
 
 df = pd.read_csv('train.csv')z
 df      # Mostramos los datos del dataset
+
 df.head(5)     # Muestra las 5 primeras filas
+
 df.sample(5)         # Muestra 5 filas aleatorias
 
 """### 2. Inspección General
