@@ -19,4 +19,4 @@ def display_pdf(file_path):
     st.markdown(pdf_display, unsafe_allow_html=True)
 
 # Reemplaza "Nombre_de_tu_archivo.pdf" por el nombre real que aparece en tu lista de archivos de GitHub
-display_pdf("certificadoPowerBI.pdf")
+display_pdf("Certificado OpenCourse Santander- Power BI.pdf.pdf")
